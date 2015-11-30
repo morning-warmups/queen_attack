@@ -1,5 +1,5 @@
 require 'minitest/autorun'
-require_relative 'queens'
+require_relative 'solution/queen_attack_solution'
 
 class QueensTest < MiniTest::Unit::TestCase
 
