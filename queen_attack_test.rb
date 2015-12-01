@@ -1,4 +1,8 @@
 require 'minitest/autorun'
+require 'minitest/reporters' # optional
+
+Minitest::Reporters.use! Minitest::Reporters::SpecReporter.new()
+
 require_relative 'solution/queen_attack_solution'
 
 class QueensTest < MiniTest::Unit::TestCase
